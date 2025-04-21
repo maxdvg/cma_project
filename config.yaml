@@ -1,0 +1,21 @@
+osrm_server_config:
+  server_startup_filename: "/media/mvg/project_folder/Project-template/server_startup_foot.sh"
+  pbf_filename: "/media/mvg/project_folder/Project-template/server_files/schwyz.pbf"
+  profile: "foot"
+
+swisstlm3d:
+  swiss_tlm_gpkg: "/media/mvg/Project_Data/SWISSTLM3D_2025.gpkg"
+  clip_gpkg: "/media/mvg/Project_Data/hikeclipped.gpkg"
+  network_layer: "tlm_strassen_strasse"
+
+gpx_tracks:
+  gpx_track_file: "gpx_tracks/hochflue_wanderung.gpx"
+  gdf_gpx_path: "fluntern_gdf.gpkg"
+
+paths:
+  taken_paths_gpkg: "Hochfluecache.gpkg"
+  alternate_routes_prefix: "alternate_route"
+
+name:
+  name: "Hochflue Hike"
+  photo_loc: "hikeimgs/hochflue_hike"

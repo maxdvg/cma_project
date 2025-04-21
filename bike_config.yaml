@@ -1,0 +1,21 @@
+osrm_server_config:
+  server_startup_filename: "/media/mvg/SwissTLM/server_startup_bicycle.sh"
+  pbf_filename: "/media/mvg/SwissTLM/switzerland.pbf"
+  profile: "bicycle"
+
+swisstlm3d:
+  swiss_tlm_gpkg: "/media/mvg/Project_Data/SWISSTLM3D_2025.gpkg"
+  clip_gpkg: "/media/mvg/Project_Data/bike_clipped.gpkg"
+  network_layer: "tlm_strassen_strasse"
+
+gpx_tracks:
+  gpx_track_file: "/media/mvg/SwissTLM/zugerberg_bike.gpx"
+  gdf_gpx_path: "zugerberg_bike.gpkg"
+
+paths:
+  taken_paths_gpkg: "zugerberg_taken.gpkg"
+  alternate_routes_prefix: "alternates_zugerberg"
+
+name:
+  name: "Zugerberg bike"
+  photo_loc: "bikeimgs/zugerberg_bike"
