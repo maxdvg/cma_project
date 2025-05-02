@@ -1,5 +1,3 @@
 # Route Preferences
 
-Copyright 2025 Max Van Gelder
-
-All code written by me. No generative AI.
+Code for analyzing recreational activity route preferences, written as part of ZHAW Patterns and Trends in Environmental data MSc ENR FS25
